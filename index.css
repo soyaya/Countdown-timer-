@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url("./countdown.jpg");
+    font-family: 'Akaya Telivigala', cursive;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center center ;
+
+    margin: 0;
+}
+h1 {
+    font-size: 4rem;
+
+}
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span{
+    font-size: 1.3rem;
+}
